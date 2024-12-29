@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="otomasyon.reservationsystem.controller.MenuController">
+    <children>
+        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia;" text="Makarnalar">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <HBox layoutX="14.0" layoutY="53.0" prefHeight="234.0" prefWidth="720.0">
+            <children>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="129.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/fettucini.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Fettucini" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="İnce ve geniş makarna şeritleriyle hazırlanan klasik İtalyan yemeği." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="240.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/parmessan.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Parmesanlı Trüflü Tagliani" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Parmesan peyniri ve trüfle tatlandırılmış tagliani makarnası." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/köri-soslu.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Köri Soslu Makarna" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text=" Baharatlı ve kremsi köri sosuyla hazırlanan lezzetli makarna." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/mac-and-cheese.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Mac And Cheese" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Sıcak ve kremalı peynirli sosla kaplanmış makarna.." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="287.0" prefHeight="234.0" prefWidth="720.0">
+            <children>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/sebzeli-makarna.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Sebzeli Makarna" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Taze sebzelerle hazırlanan hafif ve besleyici makarna." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/tavuklu-sebzeli.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Tavuklu Sebzeli Noodle" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Tavuk ve sebzelerle zenginleştirilmiş noodle yemeği." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/tortellini.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Tortellini" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="İç harcıyla doldurulmuş, minik ve yuvarlak İtalyan makarnası." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/pastas/dolgulu-vegan.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Dolgulu Vekan Makarna" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Sebzelerle ve vegan malzemelerle hazırlanır." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="200.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="7.0" prefWidth="180.0" text="EKLE" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <Button layoutX="746.0" layoutY="-1.0" mnemonicParsing="false" onAction="#goToOrder" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" textFill="WHITE">
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/back.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

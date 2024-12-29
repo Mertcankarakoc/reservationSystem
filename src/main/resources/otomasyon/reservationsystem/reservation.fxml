@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="otomasyon.reservationsystem.controller.ReservationController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <BorderPane layoutX="112.0" layoutY="209.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <left>
+                  <AnchorPane prefHeight="527.0" prefWidth="288.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <DatePicker fx:id="reservationDatePicker" layoutX="36.0" layoutY="85.0" prefHeight="25.0" prefWidth="155.0" />
+                        <Text layoutX="90.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tarih" wrappingWidth="80.21630859375">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="checkInTimeField" layoutX="34.0" layoutY="148.0" prefHeight="25.0" prefWidth="155.0" />
+                        <Text layoutX="79.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giriş Saati" wrappingWidth="80.21630859375">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="79.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Çıkış Saati" wrappingWidth="80.21630859375">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="checkOutTimeField" layoutX="34.0" layoutY="209.0" prefHeight="25.0" prefWidth="155.0" />
+                        <TextField fx:id="numberOfPeopleField" layoutX="34.0" layoutY="275.0" prefHeight="25.0" prefWidth="155.0" />
+                        <Text layoutX="79.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kişi Sayısı" wrappingWidth="80.21630859375">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <TextArea layoutX="35.0" layoutY="322.0" prefHeight="90.0" prefWidth="248.0" promptText="Not Bırakın..." style="-fx-background-color: #ffffff;" styleClass="shadow" stylesheets="@css/dashboard.css" />
+                        <Button fx:id="createReservationButton" layoutX="39.0" layoutY="451.0" mnemonicParsing="false" onAction="#createReservation" prefHeight="30.0" prefWidth="145.0" text="Rezervasyon Oluştur" />
+                     </children>
+                  </AnchorPane>
+               </left>
+               <right>
+                  <AnchorPane prefHeight="600.0" prefWidth="476.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button layoutX="422.0" layoutY="-1.0" mnemonicParsing="false" onAction="#goToDashboard" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="20.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/back.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <GridPane fx:id="tableGrid" layoutX="42.0" layoutY="51.0" prefHeight="400.0" prefWidth="400.0">
+                           <children>
+                              <Rectangle fx:id="tableRectangle" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle1" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle11" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle12" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle13" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle15" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle151" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                              <Rectangle fx:id="tableRectangle152" fill="#ffc548" height="60.0" onMouseClicked="#handleTableClick" width="100.0" />
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+               </right>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

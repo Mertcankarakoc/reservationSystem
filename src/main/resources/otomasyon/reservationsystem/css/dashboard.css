@@ -1,0 +1,19 @@
+.nav-btn{
+    -fxbackground-color: #1b90cd;
+    -fx-border-color: #fff;
+    -fxborder-width: 1px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 0);
+}
+
+.logOut{
+    -fx-background-color: #1b90cd;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+    -fx-background-radius: 50px;
+}

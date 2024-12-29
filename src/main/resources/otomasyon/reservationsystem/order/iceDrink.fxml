@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="otomasyon.reservationsystem.controller.MenuController">
+    <children>
+        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia;" text="Soğuk İçecekler">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <HBox layoutX="14.0" layoutY="53.0" prefHeight="234.0" prefWidth="720.0">
+            <children>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/icecek.jpeg" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Kola" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Kola,Fanta,Sprite,RedBull,Meyve Suyu,Ice Tea" wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="60.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/iceamericano.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Ice Americano" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Soğuk su ve buzla servis edilen ferahlatıcı sade kahve." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="80.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/icelatte.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Ice Latte" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text=" Soğuk süt ve buzla harmanlanmış kremsi kahve." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="90.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/limonata.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Limonata" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Taze limonlarla hazırlanan serinletici yaz içeceği." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="70.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="300.0" prefHeight="234.0" prefWidth="720.0">
+            <children>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/portakal.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Portakal Suyu" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Taze sıkılmış, doğal ve vitamin dolu portakal suyu." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="80.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/smoothie.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Smoothie" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Muzlu, Çilekli, Mangolu, Yaban Mersinli" wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="100.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/churchill.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Churcill" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Limon, soda ve buzla harmanlanan bir karışım." wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="50.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+                <VBox prefHeight="250.0" prefWidth="180.0">
+                    <children>
+                        <ImageView fitHeight="150.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/coldDrinks/frozen.png" />
+                            </image>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Frozen" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: georgia; -fx-text-alignment: center;" text="Çilekli, Mangolu, Limonlu, Yeşil Elmalı, Karpuzlu" wrappingWidth="179.28271484375" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: Georgia; -fx-text-alignment: center;" text="120.00" wrappingWidth="179.28271484375">
+                            <font>
+                                <Font size="15.0" />
+                            </font>
+                        </Text>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="184.0" text="EKLE" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <Button layoutX="746.0" layoutY="-1.0" mnemonicParsing="false" onAction="#goToOrder" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" textFill="WHITE">
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/back.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

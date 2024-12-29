@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.Button?>
+<?import java.lang.String?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="otomasyon.reservationsystem.controller.login.AdminController">
+    <Button layoutX="14.0" layoutY="400.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" style="-fx-background-color: #1b90cd;" text="GERİ" onAction="#goToDashboard">
+        <styleClass>
+            <String fx:value="nav-btn" />
+            <String fx:value="shadow" />
+        </styleClass>
+    </Button>
+</AnchorPane>

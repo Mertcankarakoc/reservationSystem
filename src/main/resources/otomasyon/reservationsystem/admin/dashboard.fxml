@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="otomasyon.reservationsystem.controller.login.AdminController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <BorderPane fx:id="mainBorderPane" layoutX="326.0" layoutY="177.0" prefHeight="600.0" prefWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <left>
+                        <AnchorPane prefHeight="600.0" prefWidth="229.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <AnchorPane prefHeight="600.0" prefWidth="229.0" style="-fx-background-color: #1b90cd;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="122.0" prefWidth="229.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <children>
+                                                <Label layoutX="22.0" layoutY="52.0" text="Rezervasyon Yönetim Sistemi" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                        </AnchorPane>
+                                        <Label layoutX="25.0" layoutY="122.0" prefHeight="17.0" prefWidth="179.0" text="Hoşgeldin, Yönetici" textFill="WHITE">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="14.0" layoutY="180.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" style="-fx-background-color: #1b90cd;" stylesheets="@../css/dashboard.css" text="PANEL" onAction="#loadPanel">
+                                            <styleClass>
+                                                <String fx:value="nav-btn" />
+                                                <String fx:value="shadow" />
+                                            </styleClass>
+                                        </Button>
+                                        <Button layoutX="14.0" layoutY="275.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" style="-fx-background-color: #1b90cd;" stylesheets="@../css/dashboard.css" text="REZERVASYONLAR" onAction="#loadReservations">
+                                            <styleClass>
+                                                <String fx:value="nav-btn" />
+                                                <String fx:value="shadow" />
+                                            </styleClass>
+                                        </Button>
+                                        <Button layoutX="14.0" layoutY="324.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" style="-fx-background-color: #1b90cd;" stylesheets="@../css/dashboard.css" text="MENÜ" onAction="#loadMenu">
+                                            <styleClass>
+                                                <String fx:value="nav-btn" />
+                                                <String fx:value="shadow" />
+                                            </styleClass></Button>
+                                        <Button layoutX="14.0" layoutY="559.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="60.0" stylesheets="@../css/dashboard.css" textFill="WHITE">
+                                            <graphic>
+                                                <FontAwesomeIconView fill="WHITE" glyphName="SIGN_OUT" styleClass="logOut" />
+                                            </graphic>
+                                            <styleClass>
+                                                <String fx:value="shadow" />
+                                                <String fx:value="logOut" />
+                                            </styleClass>
+                                        </Button>
+                                        <Label layoutX="80.0" layoutY="563.0" prefHeight="17.0" prefWidth="70.0" text="Çıkış Yap" textFill="WHITE">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                        </Label>
+                                        <Button layoutX="14.0" layoutY="229.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="180.0" style="-fx-background-color: #1b90cd;" stylesheets="@../css/dashboard.css" text="MÜŞTERİLER" onAction="#loadCustomers">
+                                            <styleClass>
+                                                <String fx:value="nav-btn" />
+                                                <String fx:value="shadow" />
+                                            </styleClass>
+                                        </Button>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </left>
+                    <center>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <AnchorPane prefHeight="600.0" prefWidth="871.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <children>
+                                        <AnchorPane layoutX="14.0" layoutY="23.0" prefHeight="200.0" prefWidth="836.0" style="-fx-background-color: fff; -fx-background-radius: 8px;" styleClass="shadow" stylesheets="@../css/dashboard.css">
+                                            <children>
+                                                <ScrollPane layoutY="1.0" prefHeight="202.0" prefWidth="836.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+                                                    <content>
+                                                        <AnchorPane prefHeight="200.0" prefWidth="1073.0">
+                                                            <children>
+                                                                <AnchorPane layoutX="14.0" layoutY="16.0" prefHeight="152.0" prefWidth="214.0" style="-fx-background-color: #1b90cd;">
+                                                                    <children>
+                                                                        <FontAwesomeIconView fill="WHITE" glyphName="USERS" layoutX="30.0" layoutY="101.0" selectionEnd="1" size="5em" text="" />
+                                                                        <Label layoutX="123.0" layoutY="119.0" text="Kişi Sayısı" textFill="#f5f5f5">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                        <Label layoutX="181.0" layoutY="14.0" text="0" textFill="#f5f5f5">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                    </children>
+                                                                </AnchorPane>
+                                                                <AnchorPane layoutX="259.0" layoutY="16.0" prefHeight="152.0" prefWidth="214.0" style="-fx-background-color: #1b90cd;">
+                                                                    <children>
+                                                                        <FontAwesomeIconView fill="WHITE" glyphName="RESERVATION" layoutX="30.0" layoutY="101.0" selectionEnd="1" size="5em" text="" />
+                                                                        <Label layoutX="86.0" layoutY="119.0" text="Rezervasyon Sayısı" textFill="#f5f5f5">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                        <Label layoutX="181.0" layoutY="14.0" text="0" textFill="#f5f5f5">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                    </children>
+                                                                </AnchorPane>
+                                                                <AnchorPane layoutX="506.0" layoutY="16.0" prefHeight="152.0" prefWidth="214.0" style="-fx-background-color: #1b90cd;">
+                                                                    <children>
+                                                                        <FontAwesomeIconView fill="WHITE" glyphName="MONEY" layoutX="30.0" layoutY="101.0" selectionEnd="1" size="5em" text="" />
+                                                                        <Label layoutX="123.0" layoutY="119.0" text="Toplam Para" textFill="WHITESMOKE">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                        <Label layoutX="181.0" layoutY="14.0" text="0" textFill="#f5f5f5">
+                                                                            <font>
+                                                                                <Font size="15.0" />
+                                                                            </font>
+                                                                        </Label>
+                                                                    </children>
+                                                                </AnchorPane>
+                                                            </children></AnchorPane>
+                                                    </content>
+                                                </ScrollPane>
+                                            </children></AnchorPane>
+                                        <AnchorPane layoutX="14.0" layoutY="247.0" prefHeight="335.0" prefWidth="836.0" style="-fx-background-color: fff; -fx-background-radius: 8px;" styleClass="shadow" stylesheets="@../css/dashboard.css" />
+                                    </children>
+                                </AnchorPane>
+                            </children></AnchorPane>
+                    </center>
+                </BorderPane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
